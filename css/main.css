@@ -19,7 +19,7 @@ p {
 }
 
 #portfolio {
-  height: 1550px;
+  height: auto;
 }
 
 #skills {
@@ -40,10 +40,15 @@ p {
 
 .half-width {
   width: 600px;
+  float: left;
 }
 
 .third-width {
   width: 400px;
+}
+
+.row-1, .row-2 {
+  height: 470px;
 }
 
 /***NAV STYLING***/
@@ -149,27 +154,12 @@ h3 span {
 
 /***ROGUE STYLING***/
 
-.rogue-img {
-  float: left;
-  margin: 60px;
+.rogue-img, .rogue-txt {
+  margin: 50px;
 }
 
 p span {
   font-weight: bold;
 }
 
-.rogue-txt {
-  margin: 75px;
-}
-
 /***ABRIL STYLING***/
-
-.abril-txt {
-  float: left;
-  margin: 0 60px;
-}
-
-.abril-img {
-  float: left;
-  margin-left: 75px;
-}
