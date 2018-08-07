@@ -23,7 +23,7 @@ p {
 }
 
 #skills {
-  height: 700px;
+  height: 600px;
 }
 
 #about {
@@ -45,10 +45,22 @@ p {
 
 .third-width {
   width: 400px;
+  float: left;
 }
 
-.row-1, .row-2 {
+.row-1, .row-2, .row-3, .row-4 {
   height: 470px;
+}
+
+#portfolio, #about {
+  background-color: #B4B4B4;
+}
+
+h3 span {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  background-color: #BDA9B6;
+  margin-left: 530px;
 }
 
 /***NAV STYLING***/
@@ -63,7 +75,7 @@ nav ul li {
   font-weight: 400px;
   text-align: left;
   display: inline-block;
-  margin-left: 30px;
+  margin-left: 55px;
 }
 
 ul {
@@ -74,6 +86,7 @@ a {
   text-decoration: none;
   text-transform: lowercase;
   letter-spacing: .5px;
+  color: #000000;
 }
 
 /***HEADER STYLING***/
@@ -139,27 +152,86 @@ header span.create-txt {
   background-color: #BDA9B6;
 }
 
-/***PORTFOLIO SECTION***/
+/***PORTFOLIO SECTION STYLING***/
 
-#portfolio {
-  background-color: #B4B4B4;
-}
-
-h3 span {
-  font-family: 'Playfair Display', serif;
-  font-size: 36px;
-  background-color: #BDA9B6;
-  margin-left: 480px;
-}
-
-/***ROGUE STYLING***/
-
-.rogue-img, .rogue-txt {
+.portfolio-txt, .portfolio-img {
   margin: 50px;
 }
 
-p span {
-  font-weight: bold;
+/***SOFT/BULLET SKILLS STYLING***/
+
+#bullet-skills {
+  text-align: center;
+  margin-top: 30px;
 }
 
-/***ABRIL STYLING***/
+#bullet-skills p strong {
+  font-size: 30px;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+#bullet-skills p {
+  font-size: 25px;
+  margin: 0 70px 40px 70px;
+  letter-spacing: .3px;
+  line-height: 27px;
+}
+
+/***SKILL SECTION STYLING***/
+
+.skill-1, .skill-2, .skill-3 {
+  margin: 40px 20px 0 40px;
+  text-align: center;
+}
+
+.skill-1 {
+  margin-left: 40px;
+}
+
+h4 {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  letter-spacing: .2px;
+}
+
+/***ABOUT ME SECTION STYLING***/
+
+#about p {
+  margin: 70px 70px 0 0;
+}
+
+span.CTA {
+  font-weight: bold;
+  background-color: #BDA9B6;
+  text-align: center;
+  margin-left: 150px;
+}
+
+#about p strong {
+  margin-left: 110px;
+}
+
+/***CONTACT SECTION STYLING***/
+
+.clmn-1, .clmn-2, .clmn-3 {
+  margin: 20px 0 0 30px;
+}
+
+#contact p {
+  text-align: center;
+}
+
+#contact a {
+  font-family: 'Lato', sans-serif;
+  margin-left: 50px;
+}
+
+#contact ul {
+  text-align: center;
+}
+
+#contact li a {
+  display: inline-block;
+  text-decoration: none;
+}
