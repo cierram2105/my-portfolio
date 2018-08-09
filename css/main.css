@@ -16,6 +16,7 @@ header {
 
 p {
   font-family: 'Lato', sans-serif;
+  font-size: 20px;
 }
 
 #portfolio {
@@ -26,12 +27,12 @@ p {
   height: 600px;
 }
 
-#about {
-  height: 550px;
+#contact {
+  height: 350px;
 }
 
-#contact {
-  height: 450px;
+footer {
+  height: 50px;
 }
 
 .full-width {
@@ -53,7 +54,7 @@ p {
 }
 
 #portfolio, #about {
-  background-color: #B4B4B4;
+  background-color: #D9D9D9;
 }
 
 h3 span {
@@ -61,18 +62,19 @@ h3 span {
   font-size: 36px;
   background-color: #BDA9B6;
   margin-left: 530px;
+  padding: 0 10px 0 10px;
 }
 
 /***NAV STYLING***/
 
 nav {
-  background-color: #B4B4B4;
+  background-color: #D9D9D9;
 }
 
 nav ul li {
   font-family: 'Lato', sans-serif;
   font-size: 30px;
-  font-weight: 400px;
+  font-weight: 400;
   text-align: left;
   display: inline-block;
   margin-left: 55px;
@@ -87,6 +89,7 @@ a {
   text-transform: lowercase;
   letter-spacing: .5px;
   color: #000000;
+  margin-left: 20px;
 }
 
 /***HEADER STYLING***/
@@ -118,7 +121,7 @@ header, h1:after {
 }
 
 h1 {
-  margin: 0px 50px 0 25px;
+  margin: 0px 190px 0 25px;
 }
 
 header h2 {
@@ -154,8 +157,23 @@ header span.create-txt {
 
 /***PORTFOLIO SECTION STYLING***/
 
-.portfolio-txt, .portfolio-img {
-  margin: 50px;
+.portfolio-img {
+  margin: 20px 40px 20px 20px;
+}
+
+.portfolio-txt {
+  margin: 20px 30px 20px 50px;
+}
+
+.portfolio-txt p {
+  line-height: 25px;
+  letter-spacing: .2px;
+}
+
+.project-link {
+  font-weight: bold;
+  background-color: #BDA9B6;
+  text-transform: none;
 }
 
 /***SOFT/BULLET SKILLS STYLING***/
@@ -195,6 +213,10 @@ h4 {
   letter-spacing: .2px;
 }
 
+#about {
+  overflow: auto;
+}
+
 /***ABOUT ME SECTION STYLING***/
 
 #about p {
@@ -215,23 +237,49 @@ span.CTA {
 /***CONTACT SECTION STYLING***/
 
 .clmn-1, .clmn-2, .clmn-3 {
-  margin: 20px 0 0 30px;
+  margin: 0 0 0 30px;
+  text-align: center;
+}
+
+.clmn-1 a {
+  margin-top: 25px;
 }
 
 #contact p {
   text-align: center;
+  text-transform: none;
+}
+
+#contact p strong {
+  text-transform: capitalize;
 }
 
 #contact a {
   font-family: 'Lato', sans-serif;
-  margin-left: 50px;
-}
-
-#contact ul {
-  text-align: center;
-}
-
-#contact li a {
   display: inline-block;
-  text-decoration: none;
+  font-size: 20px;
+}
+
+.clmn-2 {
+  margin-left: 0px;
+}
+
+.clmn-2 img {
+  margin: 0;
+}
+
+.clmn-3 {
+  margin: auto;
+}
+
+/***FOOTER STYLING***/
+
+footer {
+  text-align: center;
+  background-color: #D9D9D9;
+}
+
+footer p {
+  padding-top: 15px;
+  text-transform: capitalize;
 }
