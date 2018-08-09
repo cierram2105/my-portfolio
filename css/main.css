@@ -32,7 +32,7 @@ p {
 }
 
 footer {
-  height: 50px;
+  height: 55px;
 }
 
 .full-width {
@@ -77,7 +77,7 @@ nav ul li {
   font-weight: 400;
   text-align: left;
   display: inline-block;
-  margin-left: 55px;
+  margin-left: 15px;
 }
 
 ul {
@@ -121,7 +121,7 @@ header, h1:after {
 }
 
 h1 {
-  margin: 0px 190px 0 25px;
+  margin: 0px 150px 0 20px;
 }
 
 header h2 {
@@ -236,8 +236,13 @@ span.CTA {
 
 /***CONTACT SECTION STYLING***/
 
+#contact .third-width {
+  width: 350px;
+  float: left;
+  margin-left: 40px;
+}
+
 .clmn-1, .clmn-2, .clmn-3 {
-  margin: 0 0 0 30px;
   text-align: center;
 }
 
@@ -260,6 +265,10 @@ span.CTA {
   font-size: 20px;
 }
 
+.clmn-1 {
+  margin-right: 15px;
+}
+
 .clmn-2 {
   margin-left: 0px;
 }
@@ -280,6 +289,6 @@ footer {
 }
 
 footer p {
-  padding-top: 15px;
+  padding-top: 17px;
   text-transform: capitalize;
 }
